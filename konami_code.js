@@ -14,7 +14,7 @@ function init(e) {
     if(index === 10) {
       console.log('You win!');
       index = 0;
-    }  
+    }
   } else {
     index = 0;
   }
