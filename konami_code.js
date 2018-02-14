@@ -1,14 +1,14 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
-const keyCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
-
 var index = 0;
 
 function init(e) {
 
+  console.log(e);
+
   var keyPressed = e.which;
 
-  if(keyPressed === keyCode[index]) {
+  if(keyPressed === code[index]) {
     index++;
 
     if(index === 10) {
