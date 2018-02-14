@@ -12,7 +12,7 @@ function init(e) {
     index++;
 
     if(index === 10) {
-      console.log('You win!');
+      alert('Congratulations!');
       index = 0;
     }
   } else {
