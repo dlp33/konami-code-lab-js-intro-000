@@ -5,6 +5,8 @@ var index = 0;
 
 function init(event) {
 
+  document.body.addEventListener('keydown', init);
+
   console.log(parseInt(event.which));
 
   var keyPressed = parseInt(event.which);
@@ -21,4 +23,4 @@ function init(event) {
   }
 }
 
-document.body.addEventListener('keydown', init);
+
