@@ -6,7 +6,7 @@ var index = 0;
 
 function init(e) {
 
-  var keyPressed = e.key;
+  var keyPressed = e.which;
 
   if(keyPressed === keyCode[index]) {
     index++;
