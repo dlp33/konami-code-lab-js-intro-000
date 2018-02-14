@@ -4,11 +4,11 @@ var index = 0;
 
 document.body.addEventListener('keydown', init.bind(this, event));
 
-function init(e) {
+function init(event) {
 
-  console.log(e);
+  //console.log(e);
 
-  var keyPressed = e.which;
+  var keyPressed = event.which;
 
   if(keyPressed === code[index]) {
     index++;
