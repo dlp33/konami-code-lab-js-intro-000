@@ -5,8 +5,6 @@ var index = 0;
 
 function init(event) {
 
-  //console.log(e);
-
   var keyPressed = event.which;
 
   if(keyPressed === code[index]) {
