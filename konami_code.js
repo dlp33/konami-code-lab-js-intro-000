@@ -21,5 +21,3 @@ function init(e) {
     index = 0;
   }
 }
-
-
