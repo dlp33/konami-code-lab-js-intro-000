@@ -22,5 +22,3 @@ function init(event) {
     index = 0;
   }
 }
-
-
