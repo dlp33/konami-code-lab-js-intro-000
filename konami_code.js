@@ -6,9 +6,9 @@ document.addEventListener('keydown', init);
 
 function init(e) {
 
-  var keyPressed = e.which;
+  var keyPressed = parseInt(e.which);
 
-  if(e.which === code[index]) {
+  if(keyPressed === code[index]) {
     index++;
 
     if(index === 10) {
