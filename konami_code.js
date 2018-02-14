@@ -1,14 +1,16 @@
 const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
+const keyCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'b', 'a'];
+
 var index = 0;
 
 document.addEventListener('keydown', init);
 
 function init(e) {
 
-  var keyPressed = parseInt(e.which);
+  var keyPressed = e.key;
 
-  if(keyPressed === code[index]) {
+  if(keyPressed === keyCode[index]) {
     index++;
 
     if(index === 10) {
@@ -19,4 +21,3 @@ function init(e) {
     index = 0;
   }
 }
-
