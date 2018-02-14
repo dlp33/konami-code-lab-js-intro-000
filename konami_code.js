@@ -2,7 +2,7 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 
 var index = 0;
 
-document.body.addEventListener('keydown', this.init.bind(e.which));
+document.body.addEventListener('keydown', init.bind(event));
 
 function init(e) {
 
