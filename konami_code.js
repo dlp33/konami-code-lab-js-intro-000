@@ -4,10 +4,7 @@ const keyCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'A
 
 var index = 0;
 
-document.body.addEventListener('keydown', init);
-
-function init(e) {
-
+document.body.addEventListener('keydown', function init(e) {
   var keyPressed = e.key;
 
   if(keyPressed === keyCode[index]) {
@@ -20,6 +17,9 @@ function init(e) {
   } else {
     index = 0;
   }
-}
+  
+});
+
+
 
 init();
