@@ -4,7 +4,7 @@ const keyCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'A
 
 var index = 0;
 
-document.body.addEventListener('keydown', function init);
+document.body.addEventListener('keydown', init);
 
 function init(e) {
 
