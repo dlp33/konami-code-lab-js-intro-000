@@ -20,4 +20,3 @@ function init(e) {
 }
 
 document.addEventListener('keydown', init);
-
