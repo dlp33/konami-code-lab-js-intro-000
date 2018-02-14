@@ -5,9 +5,9 @@ var index = 0;
 
 function init(event) {
 
-  console.log(event);
+  console.log(parseInt(event.which));
 
-  var keyPressed = event.which;
+  var keyPressed = parseInt(event.which);
 
   if(keyPressed === code[index]) {
     index++;
